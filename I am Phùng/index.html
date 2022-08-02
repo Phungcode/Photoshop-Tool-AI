@@ -1,0 +1,215 @@
+<html><head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="icon.png">
+<title>i am Phùng</title>
+</head>
+<body onload="" style="">
+  <div class="panel">
+    <img class="logo" src="./images/1.png" width="179" height="100"> 
+    <div class="w3-container">
+      <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'retouch')">RETOUCH</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'overlay')">OVERLAY</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'anhthe')">ẢNHTHẺ</button>
+  </div>
+  <!-- tab một -->
+   <div id="retouch" class="w3-container w3-border city">
+    <div class="tm">
+      <div class="list2" style="display: block;">
+          <button id="btn_1" class="button button-xam button-33 button-left" data-function="retouchai1.main()">Beauty1</button>
+          <button id="btn_5" class="button button-xam button-33 button-left" data-function="fs.main()">TM 2-FS</button>
+          <button id="btn_2" class="button button-xam button-33 button-left" data-function="editingda.main()">Editing Da</button><button id="btn_3" class="button button-xam button-33 button-left" data-function="minda.main()">Mịn Da AI</button>
+          
+          <button id="btn_4" class="button button-xam button-33 button-left" data-function="minthon.main()">Mịn+Thon</button>
+          <button id="btn_6" class="button button-xam button-33 button-left" data-function="deuda.main()">Đều Da</button>
+          <button id="btn_7" class="button button-xam button-33 button-left" data-function="tangnet.main()">Tăng Nét</button>
+          <button id="btn_8" class="button button-xam button-33 button-left" data-function="ketcau.main()">Tạo Hạt</button>
+          <button id="btn_9" class="button button-xam button-33 button-left" data-function="mindathumuc.main()">Da H.Loạt</button>
+      </div>
+    </div>
+    <div class="tm">
+      <div class="header">TOOL - MAKE UP</div>
+      <div class="list2" style="display: block;">
+        <button id="btn_10" class="button button-xam button-33 button-left" data-function="trangrang.main()">Trăng Răng</button>
+        <button id="btn_11" class="button button-xam button-33 button-left" data-function="mahong.main()">Má Hồng</button>
+        <button id="btn_12" class="button button-xam button-33 button-left" data-function="chinmoi.main()">Môi</button>
+        <button id="btn_13" class="button button-xam button-33 button-left" data-function="sachmat.main()">Sạch Mắt</button>
+        <button id="btn_14" class="button button-xam button-33 button-left" data-function="tocmuot.main()">Trong Mắt</button>
+        <button id="btn_15" class="button button-xam button-33 button-left" data-function="fixmautoc.main()">Fix Màu Tóc</button>
+		<button id="btn_16" class="button button-xam button-33 button-left" data-function="lunen.main()">Lu Nền</button>
+        <button id="btn_17" class="button button-xam button-33 button-left" data-function="sachaovest.main()">Sạch Áo Vest</button>
+        <button id="btn_18" class="button button-xam button-33 button-left" data-function="memanh.main()">Mềm Ảnh</button>
+        <button id="btn_19" class="button button-xam button-33 button-left" data-function="bgtoi.main()">BG Tối</button>
+        <button id="btn_20" class="button button-xam button-33 button-left" data-function="resizeFB.main()">Resize HL</button>
+        <button id="btn_21" class="button button-xam button-33 button-left" data-function="donglogo.main()">Đóng Logo</button> 
+		<button id="btn_84" class="button button-xam button-50 button-left" data-function="dodgeburn.main()">Doge&amp;Burn</button>
+		<button id="btn_85" class="button button-xam button-50 button-left" data-function="cuctrong.main()">Cực Trong</button>
+	 </div>
+    </div>
+    <div class="tm">
+      <div class="header">PRESET</div>
+      <div class="list2" style="display: block;">
+        <button id="btn_22" class="button button-xam button-33 button-left" data-function="phuanhsanghanquoc.main()">Phủ AS HQ</button>
+        <button id="btn_23" class="button button-xam button-33 button-left" data-function="phutronganh.main()">PR Trong Trẻo</button>
+        <button id="btn_24" class="button button-xam button-33 button-left" data-function="phutuyettrang.main()">PR T.Trắng</button>
+        <button id="btn_25" class="button button-xam button-33 button-left" data-function="phuhanquoc.main()">PR Phủ Hàn 2</button>
+        <button id="btn_26" class="button button-xam button-33 button-left" data-function="phuhanquoc02.main()">PR Hàn Quốc</button>
+        <button id="btn_26" class="button button-xam button-33 button-left" data-function="phunaudat.main()">PR Nâu Đất</button>
+      </div>
+    </div>
+    <div class="tm">
+      <div class="header">TYPO</div>
+      <div class="list2" style="display: block;">
+        <button id="btn_27" class="button button-xam button-33 button-left" data-function="weddingeng.main()">WED ENG</button>
+        <button id="btn_28" class="button button-xam button-33 button-left" data-function="vietnam.main()">WED Việt</button>
+        <button id="btn_29" class="button button-xam button-33 button-left" data-function="hanquoc.main()">WED Korea</button>
+        <button id="btn_30" class="button button-xam button-33 button-left" data-function="film.main()">Film</button>
+        <button id="btn_31" class="button button-xam button-33 button-left" data-function="China.main()">China</button>
+        <button id="btn_32" class="button button-xam button-33 button-left" data-function="moko.main()">Moko</button>
+        <button id="btn_33" class="button button-xam button-33 button-left" data-function="japan.main()">Japan</button>
+        <button id="btn_34" class="button button-xam button-33 button-left" data-function="fashion.main()">Fashion</button>
+        <button id="btn_35" class="button button-xam button-33 button-left" data-function="teen.main()">Teen</button>
+        <button id="btn_36" class="button button-xam button-33 button-left" data-function="kyyeu.main()">Kỷ Yếu</button>
+        <button id="btn_37" class="button button-xam button-33 button-left" data-function="typotet.main()">Typo Tết</button>
+        <button id="btn_38" class="button button-xam button-33 button-left" data-function="layoutab.main()">Typo AB</button>
+      </div>
+    </div>
+   </div>
+    <!-- tab hai -->
+   <div id="overlay" class="w3-container w3-border city" style="display: none;">
+    <div class="tm">
+      <div class="header">BACKGROUND</div>
+      <div class="list2" style="display: block;">
+        <button id="btn_39" class="button button-xam button-50 button-left" data-function="biaalbum25x35.main()">Bìa AB 25x35 </button>
+        <button id="btn_40" class="button button-xam button-50 button-left" data-function="biaalbum30x30.main()">Bìa AB 30x30 </button>
+        <button id="btn_41" class="button button-xam button-50 button-left" data-function="mockup.main()">Mockup AB </button>
+        <button id="btn_42" class="button button-xam button-50 button-left" data-function="items.main()">Items </button>
+        <button id="btn_43" class="button button-xam button-33 button-left" data-function="fxshawdow.main()">Fx Shadow</button>
+        <button id="btn_44" class="button button-xam button-33 button-left" data-function="textture.main()">Textture</button>
+        <button id="btn_45" class="button button-xam button-33 button-left" data-function="bgwedding.main()">BG Wedding</button>
+        <button id="btn_46" class="button button-xam button-33 button-left" data-function="bgbaby.main()">BG Babby</button>
+        <button id="btn_47" class="button button-xam button-33 button-left" data-function="bgphongmau.main()">BG Phông Màu</button>
+        <button id="btn_48" class="button button-xam button-33 button-left" data-function="bggiadinh.main()">BG Gia Đình</button>
+        <button id="btn_49" class="button button-xam button-50 button-left" data-function="maytroi.main()">Mây Trời</button>
+        <button id="btn_50" class="button button-xam button-50 button-left" data-function="maydem.main()">Mây Đêm</button>
+      </div>
+    </div>
+    
+    <div class="tm">
+      <div class="header">HIỆU ỨNG OVERLAY</div>
+      <div class="list2" style="display: block;">
+        <button id="btn_51" class="button button-xam button-50 button-left" data-function="tiasang.main()">Tia Sáng</button>
+        <button id="btn_52" class="button button-xam button-50 button-left" data-function="boke.main()">Boke</button>
+        <button id="btn_53" class="button button-xam button-50 button-left" data-function="longvu.main()">Lông Vũ</button>
+        <button id="btn_54" class="button button-xam button-50 button-left" data-function="hatmua.main()">Hạt Mưa</button>
+        <button id="btn_55" class="button button-xam button-50 button-left" data-function="bongbong.main()">Bong Bóng</button>
+        <button id="btn_56" class="button button-xam button-50 button-left" data-function="hoala.main()">Hoa &amp; Lá</button>
+        <button id="btn_57" class="button button-xam button-50 button-left" data-function="khoi.main()">Khói Bụi</button>
+        <button id="btn_58" class="button button-xam button-50 button-left" data-function="hattuyet.main()">Hạt Tuyết</button>
+        <button id="btn_59" class="button button-xam button-50 button-left" data-function="domdom.main()">Đom Đóm</button>
+        <button id="btn_60" class="button button-xam button-50 button-left" data-function="voan.main()">Voan</button>
+      </div>
+    </div>
+   </div>
+       <!-- tab ba -->
+   <div id="anhthe" class="w3-container w3-border city" style="display: none;">
+    <div class="tm">
+	<div class="list2" style="display: block;">
+		<button id="btn_81" class="button button-xam button-33 button-left" data-function="cr2x3.main()">Crop 2x3</button>
+		<button id="btn_82" class="button button-xam button-33 button-left" data-function="cr3x4.main()">Crop 3x4</button>
+		<button id="btn_83" class="button button-xam button-33 button-left" data-function="cr4x6.main()">Crop 4x6</button>
+        <button id="btn_58" class="button button-xam button-33 button-left" data-function="crophl.main()">Crop HL</button>
+        <button id="btn_61" class="button button-xam button-33 button-left" data-function="backgroundAI.main()">Tách Nền</button>
+        <button id="btn_62" class="button button-xam button-33 button-left" data-function="xlan.main()">Nền HL</button>
+        <button id="btn_65" class="button button-xam button-50 button-left" data-function="mauaonam.main()">Mẫu Áo Nam</button>
+        <button id="btn_66" class="button button-xam button-50 button-left" data-function="mauaonu.main()">Mẫu Áo Nữ</button>
+      </div>
+    </div>
+    <div class="tm">
+      <div class="header">Xếp Ảnh Thẻ 2x3</div>
+      <div class="list2" style="display: block;">
+      <button id="btn_67" class="button button-xam button-50 button-left" data-function="xep2x3.main()">Xếp Full 2x3</button>
+      <button id="btn_68" class="button button-xam button-50 button-left" data-function="xep23x1318.main()">13x18</button>
+      <button id="btn_69" class="button button-xam button-50 button-left" data-function="xep23x1520.main()">15x20</button>
+      <button id="btn_70" class="button button-xam button-50 button-left" data-function="xep23x2030.main()">20x30</button>
+    </div>
+    </div>
+    <div class="tm">
+      <div class="header">Xếp Ảnh Thẻ 3x4</div>
+      <div class="list2" style="display: block;">
+      <button id="btn_71" class="button button-xam button-50 button-left" data-function="xep34x1015.main()">10x15</button>
+      <button id="btn_72" class="button button-xam button-50 button-left" data-function="xep34x1318.main()">13x18</button>
+      <button id="btn_73" class="button button-xam button-50 button-left" data-function="xep34x1520.main()">15x20</button>
+      <button id="btn_74" class="button button-xam button-50 button-left" data-function="xep34x2030.main()">20x30</button>
+    </div>
+    </div>
+    <div class="tm">
+    <div class="header">Xếp Ảnh Thẻ 4x6</div>
+      <div class="list2" style="display: block;">
+      <button id="btn_75" class="button button-xam button-50 button-left" data-function="xep46x1015.main()">10x15</button>
+      <button id="btn_76" class="button button-xam button-50 button-left" data-function="xep46x1318.main()">13x18</button>
+      <button id="btn_77" class="button button-xam button-50 button-left" data-function="xep46x1520.main()">15x20</button>
+      <button id="btn_78" class="button button-xam button-50 button-left" data-function="xep46x2030.main()">20x30</button>
+      <button id="btn_80" class="button button-xam button-100 button-left" data-function="kethopx1015.main()">Xếp Ảnh Kết Hợp 10x15</button>
+
+    </div>
+    </div>
+</div>
+
+    <!-- end back -->  
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " w3-red";
+  }
+     $('button').on('click', function() {
+          new CSInterface().evalScript($(this).data('function'));
+     });
+     (function() {
+    'use strict';
+    var csInterface = new CSInterface();
+    var scriptAlert = "Quick Snapshot says";
+
+    function init() {
+        themeManager.init();
+    }
+    window.oncontextmenu = function() {
+        return false;
+    };
+    var mnuLicRemove = '<Menu><MenuItem Id="remove" Label="Gỡ bản quyền" Enabled="true" /></Menu>';
+    csInterface.setPanelFlyoutMenu(mnuLicRemove);
+    csInterface.addEventListener('com.adobe.csxs.events.flyoutMenuClicked', function(event) {
+        switch (event.data.menuId) {
+            case 'remove':
+                try {
+                    csInterface.evalScript('Start(true)');
+                } catch (e) {}
+                break;
+            default:
+                break;
+        }
+    });
+    csInterface.evalScript('Start()', function(_o) {
+        init();
+    });
+}());
+    </script>
+  </div>
+
+</div></body></html>
